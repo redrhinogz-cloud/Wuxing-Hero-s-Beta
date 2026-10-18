@@ -1,0 +1,11 @@
+{
+  "name": "wuxing-heroes-online",
+  "version": "0.51.0",
+  "private": true,
+  "description": "Wuxing Heroes persistent online PvP prototype",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test_online_persistence.js && node public/test_engine.js && node public/test_ai.js"
+  },
+  "engines": { "node": ">=18" }
+}
